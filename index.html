@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K Jangyashree Patra - Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Jangyashree.</a>
+        <button class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>K Jangyashree Patra</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>I'm a Python Developer with a passion for building efficient and scalable web applications. I love creating solutions that make a difference.</p>
+        
+            <div class="home-sci">
+                <a href="https://www.linkedin.com/in/k-jangyashree--774187252/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/Jangyashree" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="javascript:void(0)" onclick="openWhatsApp()"><i class="bi bi-whatsapp"></i></a>
+                <a href="mailto:k.jangyashreepatra@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+            </div>
+            <a href="#about" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <h2 class="sub-title" id="about">About <span>Me</span></h2>
+    <section class="about">
+        <div class="container">
+            <div class="about-img">
+                <img src="./pic.jpg" alt="Profile Photo">
+            </div>
+
+            <div class="about-text">
+                <p>I'm a Full Stack Developer who works with Python and modern web tools. I build websites and apps from start to finish, focusing on clean design and making things easy to use. I'm always eager to learn new stuff and keep up with the latest tech. I enjoy breaking down real problems and finding smart solutions. I also believe that good communication and teamwork matter because the best products come from working well together and listening to users. I try to write code that's simple, effective, and easy to maintain over time.</p>
+            </div>
+            
+            <div class="btn-center">
+                <a href="#" class="btn-box" onclick="downloadResume()">
+                    <i class="fas fa-download" style="margin-right: 8px;"></i>Resume
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <div class="container" id="skills">
+        <div class="section-header">
+            <h1 class="section-title">Technical Skills</h1>
+            <p class="section-subtitle">CRAFTING DIGITAL EXPERIENCES</p>
+        </div>
+        
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon html-icon">HTML</div>
+                    <div class="skill-name">HTML5</div>
+                    <div class="skill-level">Expert</div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-percentage">92%</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill html-progress"></div>
+                    </div>
+                </div>
+                <p class="skill-description">
+                    Semantic HTML5 markup, accessibility best practices, and modern web standards. Experienced with complex layouts and SEO optimization.
+                </p>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon css-icon">CSS</div>
+                    <div class="skill-name">CSS3</div>
+                    <div class="skill-level">Advanced</div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-percentage">88%</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill css-progress"></div>
+                    </div>
+                </div>
+                <p class="skill-description">
+                    Advanced CSS3, Flexbox, Grid, animations, and responsive design. Proficient with preprocessors like Sass and modern CSS frameworks.
+                </p>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon js-icon">JS</div>
+                    <div class="skill-name">JavaScript</div>
+                    <div class="skill-level">Advanced</div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-percentage">85%</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill js-progress"></div>
+                    </div>
+                </div>
+                <p class="skill-description">
+                    Modern ES6+ JavaScript, async/await, DOM manipulation, and API integration. Experience with testing frameworks and build tools.
+                </p>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon python-icon">PY</div>
+                    <div class="skill-name">Python</div>
+                    <div class="skill-level">Expert</div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-percentage">90%</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill python-progress"></div>
+                    </div>
+                </div>
+                <p class="skill-description">
+                    Full-stack Python development, Django/Flask frameworks, data analysis with pandas, and machine learning with scikit-learn.
+                </p>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon sql-icon">DB</div>
+                    <div class="skill-name">SQL</div>
+                    <div class="skill-level">Advanced</div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-percentage">82%</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill sql-progress"></div>
+                    </div>
+                </div>
+                <p class="skill-description">
+                    Writing complex SQL queries, joins, indexing, stored procedures, and experience with SQL and Oracle DB.
+                </p>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-header">
+                    <div class="skill-icon git-icon"><i class="fab fa-git-alt"></i></div>
+                    <div class="skill-name">Git & GitHub</div>
+                    <div class="skill-level">Intermediate</div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-percentage">70%</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill git-progress"></div>
+                    </div>
+                </div>
+                <p class="skill-description">
+                    Version control with Git, GitHub collaboration, branching, merging, and handling pull requests efficiently.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="sub-title" id="projects">My <span>Projects</span></h2>
+    <section class="projects">
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Netflix Clone Streaming Platform</h3>
+                <p>A Netflix-inspired web platform with a Django backend and SQLite integration. Designed to demonstrate full-stack development and responsive UI.</p>
+                <ul>
+                    <li><strong>Technologies Used:</strong> HTML, CSS, JavaScript, Django, SQLite</li>
+                    <li><strong>Role:</strong> Full Stack Developer</li>
+                    <li><strong>Tools:</strong> VS Code, Git</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+     
+    <div class="container" id="contact">
+        <div class="contact-wrapper">
+            <div class="section-header">
+                <h1 class="section-title">Contact Me</h1>
+                <p class="section-subtitle">LET'S CREATE SOMETHING AMAZING</p>
+            </div>
+            
+            <div class="form-container">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-input" id="name" placeholder=" " required>
+                        <label for="name" class="floating-label">Enter Your Name</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" class="form-input" id="email" placeholder=" " required>
+                        <label for="email" class="floating-label">Enter Your Email</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="text" class="form-input" id="subject" placeholder=" " required>
+                        <label for="subject" class="floating-label">Enter Your Subject</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea class="form-textarea" id="message" placeholder=" " required></textarea>
+                        <label for="message" class="floating-label">Enter Your Message...</label>
+                    </div>
+                    
+                    <button type="submit" class="submit-button" id="submitBtn">
+                        <span>Send Message</span>
+                    </button>
+
+                    <div id="successMessage" class="success-message">Message sent successfully!</div>
+
+                </form>
+            </div>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">✉</div>
+                    <div class="contact-title">Email</div>
+                    <div class="contact-details">k.jangyashreepatra@gmail.com</div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <div class="contact-title">Phone</div>
+                    <div class="contact-details">+91 8144221894</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="last-text">
+            <p>&copy; 2025 Jangyashree Patra</p>
+        </div>
+        <a href="#home" class="top"><i class="fa-solid fa-angle-up"></i></a>
+    </footer>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
