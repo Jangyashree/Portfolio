@@ -82,17 +82,6 @@
             event.target.reset();
         }
 
-        // WhatsApp function
-        function openWhatsApp() {
-            const message = encodeURIComponent("Hi Jangyashree, I found your portfolio and would like to connect!");
-            window.open(`https://wa.me/918144221894?text=${message}`, '_blank');
-        }
-
-        // Resume download function
-        function downloadResume() {
-            window.open('Jangyashree.resume.pdf', '_blank');
-        }
-
         // Progress bar animation on scroll
         const observerOptions = {
             threshold: 0.3,
