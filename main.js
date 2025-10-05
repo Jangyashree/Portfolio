@@ -171,9 +171,9 @@
                 document.querySelectorAll('.progress-fill').forEach(fill => {
                     fill.style.width = fill.className.includes('html') ? '92%' :
                                       fill.className.includes('css') ? '88%' :
-                                      fill.className.includes('js') ? '85%' :
+                                      fill.className.includes('js') ? '80%' :
                                       fill.className.includes('python') ? '90%' :
-                                      fill.className.includes('django') ? '80%' :
+                                      fill.className.includes('django') ? '85%' :
                                       fill.className.includes('sql') ? '82%' : '78%';
                 });
             }, 500);
@@ -320,5 +320,6 @@
                 this.style.transform = '';
             });
         });
+
 
 
