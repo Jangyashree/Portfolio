@@ -815,7 +815,7 @@ body {
 
 .js-progress {
     background: linear-gradient(45deg, #f59e0b, #fbbf24, #f59e0b, #fbbf24);
-    width: 85%;
+    width: 80%;
 }
 
 .python-progress {
@@ -823,9 +823,14 @@ body {
     width: 90%;
 }
 
+.django-progress {
+    background: linear-gradient(45deg, #8b5cf6, #a78bfa, #8b5cf6, #a78bfa);
+    width: 82%;
+}
+
 .sql-progress {
     background: linear-gradient(45deg, #06b6d4, #67e8f9, #06b6d4, #67e8f9);
-    width: 82%;
+    width: 85%;
 }
 
 .git-progress {
@@ -1330,4 +1335,5 @@ body {
     100% { transform: translate(-50%, -50%) rotate(360deg); }
 
 }
+
 
