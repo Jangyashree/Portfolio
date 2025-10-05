@@ -745,7 +745,10 @@ body {
     background: linear-gradient(135deg, #8b5cf6, #a78bfa);
     color: white;
 }
-
+.django-icon {
+    background: linear-gradient(135deg, #8b5cf6, #a78bfa);
+    color: white;
+}
 .sql-icon {
     background: linear-gradient(135deg, #06b6d4, #67e8f9);
     color: white;
@@ -1325,4 +1328,5 @@ body {
 @keyframes spin {
     0% { transform: translate(-50%, -50%) rotate(0deg); }
     100% { transform: translate(-50%, -50%) rotate(360deg); }
+
 }
