@@ -824,7 +824,7 @@ body {
 }
 
 .django-progress {
-    background: linear-gradient(45deg, #8b5cf6, #a78bfa, #8b5cf6, #a78bfa);
+    background: linear-gradient(45deg, #44B78B, #2ECC71, #44B78B, #1DB954);
     width: 82%;
 }
 
@@ -1335,5 +1335,6 @@ body {
     100% { transform: translate(-50%, -50%) rotate(360deg); }
 
 }
+
 
 
