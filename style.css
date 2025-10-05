@@ -755,7 +755,7 @@ body {
 }
 
 .git-icon {
-    background: linear-gradient(135deg, #22c55e, #4ade80);
+    background: linear-gradient(135deg, #000000, #181818);
     color: white;
 }
 
@@ -1335,6 +1335,7 @@ body {
     100% { transform: translate(-50%, -50%) rotate(360deg); }
 
 }
+
 
 
 
