@@ -834,7 +834,7 @@ body {
 }
 
 .git-progress {
-    background: linear-gradient(45deg, #22c55e, #4ade80, #22c55e, #4ade80);
+    background: linear-gradient(45deg, #000000, #222222, #000000, #222222);
     width: 78%;
 }
 
@@ -1335,6 +1335,7 @@ body {
     100% { transform: translate(-50%, -50%) rotate(360deg); }
 
 }
+
 
 
 
