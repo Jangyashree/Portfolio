@@ -746,7 +746,7 @@ body {
     color: white;
 }
 .django-icon {
-    background: linear-gradient(135deg, #8b5cf6, #a78bfa);
+    background: linear-gradient(90deg, #44B78B, #00C389);
     color: white;
 }
 .sql-icon {
@@ -1330,3 +1330,4 @@ body {
     100% { transform: translate(-50%, -50%) rotate(360deg); }
 
 }
+
