@@ -284,22 +284,6 @@
             type();
         }
 
-        // Initialize typing effects
-        setTimeout(() => {
-            const inputs = [
-                { element: document.getElementById('name'), text: 'Your full name...' },
-                { element: document.getElementById('email'), text: 'your.email@example.com' },
-                { element: document.getElementById('subject'), text: 'What\'s this about?' },
-                { element: document.getElementById('message'), text: 'Tell me about your project or idea...' }
-            ];
-            
-            inputs.forEach((input, index) => {
-                setTimeout(() => {
-                    typeWriter(input.element, input.text, 30);
-                }, index * 500);
-            });
-        }, 2000);
-
         // Contact item click effects
         document.querySelectorAll('.contact-item').forEach(item => {
             item.addEventListener('click', function() {
@@ -320,6 +304,7 @@
                 this.style.transform = '';
             });
         });
+
 
 
 
